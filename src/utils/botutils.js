@@ -243,6 +243,10 @@ const setDoublePoints = (dpoints) => {
     doublePoints = dpoints;
 }
 
+const getBirthdays = async () => {
+    return userxp.filter(user => user.birthday != null && user.birthmonth != null);
+}
+
 const setBirthday = async (id, day, month, timezone, schedule, guild) => {
     const user = userxp.get(id);
 
@@ -435,6 +439,7 @@ module.exports = {
     addXP,
     voteForMember,
     setDoublePoints,
+    getBirthdays,
     setBirthday,    
     getUserStats,    
     hoursToMinutesFormat,
