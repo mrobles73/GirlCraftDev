@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+/db
+*.sqlite
+
+#config files
+config.json
+
+# local env files
+.env*.local
+.env

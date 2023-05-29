@@ -1,0 +1,26 @@
+{
+  "name": "gcdevbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvacord": "^5.4.8",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.2",
+    "sequelize": "^6.29.3",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
